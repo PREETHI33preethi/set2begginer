@@ -1,6 +1,3 @@
-is program is built on the concept of how to check whether an integer is an Armstrong number or not.
-
-Example: Armstrong Numbers Between Two Integers
 #include <stdio.h>
 #include <math.h>
 int main()
