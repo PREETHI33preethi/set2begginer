@@ -1,16 +1,12 @@
-#include <stdio.h>
-int main()
-{
-    int n, i;
-    unsigned long long factorial = 1;
-    scanf("%d",&n);
-    if(n>0)
-    {
-        for(i=1; i<=n; ++i)
-        {
-            factorial *= i;              
-        }
-        printf(n,factorial);
-    }
-    return 0;
-}
+#include<stdio.h>  
+int main()    
+{    
+ int i,fact=1,num;      
+  scanf("%d",&num);    
+    for(i=1;i<=num;i++)
+  {    
+      fact=fact*i;    
+  }    
+  printf("%d",fact);    
+return 0;  
+}   
